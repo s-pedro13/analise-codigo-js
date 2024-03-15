@@ -7,20 +7,18 @@
 * [Sites Utilizados](#sites-utilizados)
 
 # INTRODUÇÃO
-O exercício proposto teve como proposta procurarmos o significado de varíaveis e aprender suas utilidades. Os códigos de exemplo que está no arquivo "codigo1.html" serve para modificar a variável "str", removendo os últimos 5 caracteres e substituindo-os por " Bash", e então escrevendo o resultado na página utilizando document.write(). e o outro "codigo2.html" serve para escrever na página a data e hora atuais quando o script é executado.
+O exercício proposto teve o intuíto de procurarmos os significado de varíaveis e aprender suas utilidades. Os códigos de exemplo que está no arquivo "codigo1.html" cria um temporizador de 10 minutos e o outro "codigo2.html" tem um siatema de verdadeiro e falso para encomtrar o documento.
 
 # VARIÁVEIS
-## CÓDIGO 1
-
-- A variável "str" armazena a string 'Terminal Root'.
-- Em seguida, a função `slice(0, -5)` é usada para remover os últimos 5 caracteres da string original.
-- Depois, a string resultante é concatenada com ' Bash' e armazenada novamente na variável "str".
-- Por fim, o conteúdo da variável "str" é escrito na página usando `document.write()`.
-
-## CÓDIGO 2
-- Não há variáveis definidas explicitamente.
-- O código executa a função `Date()` que retorna a data e hora atuais.
-- O resultado retornado por `Date()` é escrito na página usando `document.write()`.
+- Function: Indica uma função pré determinada. 
+- var: Representa uma váriavel. 
+- Date: Cria um campo para que o usuário possa selecionar uma data. 
+- Document: É o objeto raiz do projeto, representa o própio documento HTML. 
+- GetElementById: Retorna o elemento cujo atributo Id foi especificado. 
+- InnerHTML: o HTML interno de alogo, sendo esse último um objeto, ou seja, uma tag. 
+- if: Significa "se" e é como usamos os operadores lógicos de uma linguagem. Ele condiciona um qualquer, executando-o apenas se ela for verdadeira. 
+- }: linguagem de criação de scripts ou uma linguagem interpretada. 
+- return: É usada em uma função para especificar o valor que a função deve fornecer de volta quando é chamada.
 
 # TECNOLOGIAS UTILIZADAS
 - HTML 5
